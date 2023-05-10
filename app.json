@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "test",
+    "name": "FarmCycle",
     "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.arlie.test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0be6b8b3-cbe9-4831-8090-e8faa9c63c9a"
+      }
     }
   }
 }
